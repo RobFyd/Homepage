@@ -1,0 +1,46 @@
+.footer {
+    padding: 25px 10px;
+}
+
+.footer__header {
+    background-color: #f7dada;
+    text-align: center;
+    box-shadow: 4px 4px 3px #787878;
+}
+
+.cold1 {
+    background-color: #84e9ff;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    color: black;
+    background-color: #f7dada;
+    width: 200px;
+    height: 40px;
+    box-shadow: 4px 4px 3px #787878;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+}
+
+.button2:hover {
+    background-color: #84e9ff;
+}
+
+.button2:active {
+    transform: translateY(2px);
+}
+
+.cold3 {
+    background-color: #84e9ff;
+}
+
+.cold3:hover {
+    background-color: #f7dada;
+}

@@ -1,0 +1,37 @@
+.navigation {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.navigation__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__link {
+    color: black;
+    background-color: #f7dada;
+    text-decoration: none;
+    padding: 6px;
+    box-shadow: 4px 4px 3px #787878;
+    margin: 21px;
+}
+
+.navigation__link:hover {
+    background-color: #fdffeb;
+    outline: 2px solid black;
+}
+
+.navigation__link:active {
+    background-color: #f7dada;
+}
+
+.cold2 {
+    background-color: #84e9ff;
+}
+
+.cold2:hover {
+    background-color: #d2f2f9;
+}

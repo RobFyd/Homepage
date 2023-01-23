@@ -1,0 +1,28 @@
+.header__title {
+    border: solid;
+    color: black;
+    text-shadow: 1px 1px 4px #00000080;
+    padding: 5px 10px;
+    background-color: #f7dada;
+    text-align: center;
+    box-shadow: 4px 4px 3px #787878;
+}
+
+.section__header {
+    background-color: #f7dada;
+    text-align: center;
+    box-shadow: 4px 4px 3px #787878;
+}
+
+.header__button {
+    color: rgb(250, 248, 252);
+    background-color: #000000;
+}
+
+.header__button:hover {
+    background-color: crimson;
+}
+
+.header__button:active {
+    transform: translateY(2px);
+}

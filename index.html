@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domowa M4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__title">Robert Fydrych</h1>
+        <p>
+            <button class="header__button js-button">Usuń imię i nazwisko</button>
+        </p>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li><a class="navigation__link js__link" href="#o-mnie" rel="noreferrer nooppener">O mnie</a></li>
+            <li><a class="navigation__link js__link2" href="#zawód">Zawód i wykształcenie</a></li>
+            <li><a class="navigation__link js__link3" href="#gry" rel="noreferrer nooppener">Ulubione gry</a>
+            </li>
+            <li><a class="navigation__link js__link4" href="#kontakt" rel="noreferrer nooppener">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__header js__header">O mnie:</h2>
+            <p class="section__box">
+                Cześć! Nazywam się <strong>Robert Fydrych</strong>. Mam 40 lat i pochodzę z Koszalina. Obecnie
+                mieszkam
+                i
+                pracuje w Worcester. Jest to malownicze miasto w Anglii. Z wykształcenia jestem inżynierem, a
+                pracuje
+                jako
+                spawacz-fabrykator. Uwielbiam piesze wycieczki, survival-horrory, majsterkować, a ostatnio
+                zainteresowało
+                mnie
+                programowanie.<br>Poniżej moja fotka oraz miejscowości w której mieszkam:
+            </p>
+            <div class="section__foto">
+                <span>
+                    <img class="section__foto section__foto--shadow" width="151" height="250"
+                        src="https://i.postimg.cc/5yFZX3Qr/do-pracy-dom.jpg" alt="moje zdjęcie">
+                    <img class="section__foto section__foto--shadow" width="376" height="250"
+                        src="https://i.postimg.cc/DfJZQ3q9/do-pracy-dom-2.jpg" alt="panorama miasta Worcester">
+                </span>
+            </div>
+        </section>
+        <section class="section" id="zawód">
+            <h3 class="section__header js__header2">Zawód i wykształcenie:</h3>
+            <div class="section__box">
+                <p>
+                    Od około 18 lat moja kariera zawodowa związana jest z obróbką i spawaniem różnego rodzaju metali
+                    oraz
+                    tworzeniem konstrukcji stalowych i aluminiowych. Swoją ścieżkę zawodową zacząłem jako pomocnik
+                    kowala, a
+                    obecnie na podstawie dokumentacji technicznych buduję i spawam konstrukcje urządzeń ze stali
+                    nierdzewnej
+                    używanych w przemyśle medycznym. Ukończyłem także studia inżynierskie na wydziale mechanicznym o
+                    specjalizacji - programowanie obrabiarek i urządzeń CNC. Dzięki uczęszczaniu na Politechnikę
+                    Koszalińską miałem styczność z oprogramowaniem CAD i CAM służącym do wspomagania projektowania, a
+                    następnie
+                    wytwarzania obiektów przy pomocy urządzeń CNC. Najmilej wspominam prace z programem
+                    <em>Solidworks</em>.
+                    Obecnie rozpoczołem kurs <b class="section__box--course">Frontend Developer od podstaw</b>, ponieważ bardzo
+                    zainteresowała
+                    mnie praca w
+                    IT.
+                </p>
+            </div>
+        </section>
+        <section class="section" id="gry">
+            <h3 class="section__header js__header3">Ulubione survival-horrory</h3>
+            <div class="section__tableContainer">
+                <table class="table">
+                    <caption class="table__caption"><i>6 najlepszych "survivalów" wg mnie:</i></caption>
+                    <colgroup>
+                        <col />
+                        <col />
+                        <col />
+                        <col class="table__col4" />
+                        <col class="table__col5" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th class="table__cell table__cellHeader" scope="col">Tytuł</th>
+                            <th class="table__cell table__cellHeader t2" scope="col">Wydawca</th>
+                            <th class="table__cell table__cellHeader t3" scope="col">Rok wydania</th>
+                            <th class="table__cell table__cellHeader t4" scope="col">Średnia ocen krytyków wg
+                                metacritic.com
+                            </th>
+                            <th class="table__cell table__cellHeader t5" scope="col">Średnia ocen graczy wg
+                                metacritic.com</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="table__cell table__cellHeader t6" scope="row">Resident Evil 4</th>
+                            <td class="table__cell" rowspan="2">Capcom</td>
+                            <td class="table__cell">2005</td>
+                            <td class="table__cell">96/100</td>
+                            <td class="table__cell">9.2/10</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cellHeader t7" scope="row">Resident Evil 2 remake</th>
+                            <td class="table__cell">2019</td>
+                            <td class="table__cell">91/100</td>
+                            <td class="table__cell">9/10</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cellHeader t8" scope="row">The Evil Within</th>
+                            <td class="table__cell" rowspan="2">Bethesda Softworks</td>
+                            <td class="table__cell">2014</td>
+                            <td class="table__cell">75/100</td>
+                            <td class="table__cell">8.1/10</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cellHeader t9" scope="row">The Evil Within 2</th>
+                            <td class="table__cell">2017</td>
+                            <td class="table__cell">76/100</td>
+                            <td class="table__cell">8.4/10</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cellHeader t10" scope="row">Days Gone</th>
+                            <td class="table__cell">Sony Interactive Entertainment</td>
+                            <td class="table__cell">2019</td>
+                            <td class="table__cell">71/100</td>
+                            <td class="table__cell">8.4/10</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cellHeader t11" scope="row">Dead Space</th>
+                            <td class="table__cell">Electronic Arts</td>
+                            <td class="table__cell">2008</td>
+                            <td class="table__cell">86/100</td>
+                            <td class="table__cell">8.3/10</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th class="table__cell table__cellHeader t12" scope="col" colspan="3">Średnia ocena
+                                wszystkich
+                                sześciu
+                                gier
+                            </th>
+                            <td class="table__cell">82.5/100</td>
+                            <td class="table__cell">8.56/10</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="kontakt">
+        <h3 class="footer__header js__header4">Dziękuję za uwagę :)</h3>
+        <p><i>W razie dodatkowych pytań proszę o wysłanie wiadomości na adres <b>robert.fydrych.w@gmail.com</b> lub o
+                kontakt telefoniczny pod numerem 555-1234.</i></p>
+        <!-- change theme button below -->
+        <div class="center">
+            <p>
+                <button class="button2">Włącz <span class="themeName">chłodny</span> motyw</button>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
