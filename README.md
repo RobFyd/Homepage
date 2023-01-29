@@ -7,14 +7,21 @@ My first page contains:
 - CSS
 - JS
 
-My foto:
+My logo:
 
-![IT'S ME](https://github.com/RobFyd/homepage/blob/main/images/do%20pracy%20dom.jpg?raw=true)
+![LOGO](https://github.com/RobFyd/homepage/blob/main/images/RF.png?raw=true)
 
 ```javascript
 let x = "love coding";
 console.log(x);
 ```
+
+My Homepage
+
+👇
+
+[Homepage](https://robfyd.github.io/homepage/)
+
 Below you can quickly use uncle google:
 
 👇
