@@ -13,13 +13,13 @@
 }
 
 
-.center {
+.footer__center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.button2 {
+.footer__button {
     color: black;
     background-color: #f7dada;
     width: 200px;
@@ -29,11 +29,11 @@
     font-size: large;
 }
 
-.button2:hover {
+.footer__button:hover {
     background-color: #84e9ff;
 }
 
-.button2:active {
+.footer__button:active {
     transform: translateY(2px);
 }
 

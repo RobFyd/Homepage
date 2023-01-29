@@ -1,15 +1,15 @@
 console.log("Witam:)");
 
 let click1 = document.querySelector(".js-button");
-let header = document.querySelector(".header");
+let header = document.querySelector(".js-header");
 
 click1.addEventListener("click", () => {
     header.remove();
 });
 
-let button2 = document.querySelector(".button2");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+let button2 = document.querySelector(".js-button2");
+let body = document.querySelector(".js-body");
+let themeName = document.querySelector(".js-themeName");
 
 button2.addEventListener("click", () => {
     body.classList.toggle("cold");
