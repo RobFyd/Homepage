@@ -2,9 +2,11 @@ console.log("Witam:)");
 
 let click1 = document.querySelector(".js-button");
 let header = document.querySelector(".js-header");
+let myName = document.querySelector(".js-name");
 
 click1.addEventListener("click", () => {
     header.remove();
+    myName.remove();
 });
 
 let button2 = document.querySelector(".js-button2");
@@ -14,7 +16,7 @@ let themeName = document.querySelector(".js-themeName");
 button2.addEventListener("click", () => {
     body.classList.toggle("cold");
 
-    themeName.innerText = body.classList.contains("cold") ? "ciepły" : "chłodny";
+    themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
 });
 
 let header__title = document.querySelector(".header__title");

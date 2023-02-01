@@ -4,6 +4,7 @@
 
 .section__box {
     font-size: large;
+    text-align: justify;
 }
 
 .section__box--course {
