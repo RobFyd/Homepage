@@ -1,4 +1,4 @@
-console.log("Witam:)");
+console.log("Hello World :)");
 
 let click1 = document.querySelector(".js-button");
 let header = document.querySelector(".js-header");
