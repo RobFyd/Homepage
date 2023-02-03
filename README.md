@@ -12,21 +12,18 @@ My first page contains:
 - JS
 - BEM convention
 
-### Screenshot
+### Screenshot:
+
+![homepage screenshot](https://github.com/RobFyd/homepage/blob/main/images/readme%20shot.PNG?raw=true)
 
 
-
-My logo:
-
-![LOGO](https://github.com/RobFyd/homepage/blob/main/images/RF.png?raw=true)
-
-My Homepage
+If you want to learn more and test the functionality of my first website, click below:
 
 👇
 
 [Homepage](https://robfyd.github.io/homepage/)
 
-Below you can quickly use uncle google:
+Or below you can quickly use uncle google:
 
 👇
 
@@ -37,6 +34,10 @@ Or do you have a question for the omniscient chatGPT?
 👇
 
 [chatGPT](https://chat.openai.com)
+
+My logo:
+
+![LOGO](https://github.com/RobFyd/homepage/blob/main/images/RF.png?raw=true)
 
 
 ```javascript
