@@ -11,6 +11,8 @@
     };
 
     const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
         body.classList.toggle("cold");
         themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
     };
@@ -24,9 +26,6 @@
     init();
 
     const button2 = document.querySelector(".js-button2");
-    const body = document.querySelector(".js-body");
-    const themeName = document.querySelector(".js-themeName");
-
     button2.addEventListener("click", toggleBackground);
 
     const header__title = document.querySelector(".header__title");
