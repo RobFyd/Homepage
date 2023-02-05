@@ -1,23 +1,30 @@
-console.log("Hello World :)");
+function welcome() {
+    console.log("Hello World :)");
+}
+
+const removeNameClick = () => {
+    header.remove();
+    myName.remove();
+};
+
+const onChangeBackgroundClick = () => {
+    body.classList.toggle("cold");
+    themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
+}
+
+welcome();
 
 const click1 = document.querySelector(".js-button");
 const header = document.querySelector(".js-header");
 const myName = document.querySelector(".js-name");
 
-click1.addEventListener("click", () => {
-    header.remove();
-    myName.remove();
-});
+click1.addEventListener("click", removeNameClick);
 
 const button2 = document.querySelector(".js-button2");
 const body = document.querySelector(".js-body");
 const themeName = document.querySelector(".js-themeName");
 
-button2.addEventListener("click", () => {
-    body.classList.toggle("cold");
-
-    themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
-});
+button2.addEventListener("click", onChangeBackgroundClick);
 
 const header__title = document.querySelector(".header__title");
 const js__header = document.querySelector(".js__header");
