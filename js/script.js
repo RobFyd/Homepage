@@ -1,17 +1,17 @@
 console.log("Hello World :)");
 
-let click1 = document.querySelector(".js-button");
-let header = document.querySelector(".js-header");
-let myName = document.querySelector(".js-name");
+const click1 = document.querySelector(".js-button");
+const header = document.querySelector(".js-header");
+const myName = document.querySelector(".js-name");
 
 click1.addEventListener("click", () => {
     header.remove();
     myName.remove();
 });
 
-let button2 = document.querySelector(".js-button2");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
+const button2 = document.querySelector(".js-button2");
+const body = document.querySelector(".js-body");
+const themeName = document.querySelector(".js-themeName");
 
 button2.addEventListener("click", () => {
     body.classList.toggle("cold");
@@ -19,11 +19,11 @@ button2.addEventListener("click", () => {
     themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
 });
 
-let header__title = document.querySelector(".header__title");
-let js__header = document.querySelector(".js__header");
-let js__header2 = document.querySelector(".js__header2");
-let js__header3 = document.querySelector(".js__header3");
-let js__header4 = document.querySelector(".js__header4");
+const header__title = document.querySelector(".header__title");
+const js__header = document.querySelector(".js__header");
+const js__header2 = document.querySelector(".js__header2");
+const js__header3 = document.querySelector(".js__header3");
+const js__header4 = document.querySelector(".js__header4");
 
 button2.addEventListener("click", () => {
     header__title.classList.toggle("cold1");
@@ -33,10 +33,10 @@ button2.addEventListener("click", () => {
     js__header4.classList.toggle("cold1");
 });
 
-let js__link = document.querySelector(".js__link");
-let js__link2 = document.querySelector(".js__link2");
-let js__link3 = document.querySelector(".js__link3");
-let js__link4 = document.querySelector(".js__link4");
+const js__link = document.querySelector(".js__link");
+const js__link2 = document.querySelector(".js__link2");
+const js__link3 = document.querySelector(".js__link3");
+const js__link4 = document.querySelector(".js__link4");
 
 
 button2.addEventListener("click", () => {
@@ -50,18 +50,18 @@ button2.addEventListener("click", () => {
     button2.classList.toggle("cold3");
 });
 
-let table__cellHeader = document.querySelector(".table__cellHeader")
-let t2 = document.querySelector(".t2")
-let t3 = document.querySelector(".t3")
-let t4 = document.querySelector(".t4")
-let t5 = document.querySelector(".t5")
-let t6 = document.querySelector(".t6")
-let t7 = document.querySelector(".t7")
-let t8 = document.querySelector(".t8")
-let t9 = document.querySelector(".t9")
-let t10 = document.querySelector(".t10")
-let t11 = document.querySelector(".t11")
-let t12 = document.querySelector(".t12")
+const table__cellHeader = document.querySelector(".table__cellHeader")
+const t2 = document.querySelector(".t2")
+const t3 = document.querySelector(".t3")
+const t4 = document.querySelector(".t4")
+const t5 = document.querySelector(".t5")
+const t6 = document.querySelector(".t6")
+const t7 = document.querySelector(".t7")
+const t8 = document.querySelector(".t8")
+const t9 = document.querySelector(".t9")
+const t10 = document.querySelector(".t10")
+const t11 = document.querySelector(".t11")
+const t12 = document.querySelector(".t12")
 
 button2.addEventListener("click", () => {
     table__cellHeader.classList.toggle("cold1");
