@@ -10,7 +10,7 @@
         myName.remove();
     };
 
-    const onChangeBackgroundClick = () => {
+    const toggleBackground = () => {
         body.classList.toggle("cold");
         themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
     };
@@ -27,7 +27,7 @@
     const body = document.querySelector(".js-body");
     const themeName = document.querySelector(".js-themeName");
 
-    button2.addEventListener("click", onChangeBackgroundClick);
+    button2.addEventListener("click", toggleBackground);
 
     const header__title = document.querySelector(".header__title");
     const js__header = document.querySelector(".js__header");
