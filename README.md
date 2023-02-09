@@ -23,17 +23,6 @@ If you want to learn more and test the functionality of my first website, click 
 
 [Homepage](https://robfyd.github.io/homepage/)
 
-Or below you can quickly use uncle google:
-
-👇
-
-[Google](https://google.com)
-
-Or do you have a question for the omniscient chatGPT?
-
-👇
-
-[chatGPT](https://chat.openai.com)
 
 My logo:
 
