@@ -26,7 +26,7 @@ If you want to learn more and test the functionality of my first website, click 
 
 My logo:
 
-![LOGO](https://github.com/RobFyd/homepage/blob/main/images/RF.png?raw=true)
+![LOGO](https://github.com/RobFyd/BMI-Calculator/blob/main/fotos/RFLogo.png?raw=true)
 
 
 ```javascript
