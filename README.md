@@ -11,6 +11,7 @@ My first page contains:
 - CSS
 - JS
 - BEM convention
+- Flex
 
 ### Screenshot:
 
