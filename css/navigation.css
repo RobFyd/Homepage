@@ -1,22 +1,23 @@
 .navigation {
     margin-bottom: 20px;
     margin-top: 30px;
-    text-align: center;
 }
 
 .navigation__list {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .navigation__link {
     color: black;
     background-color: #f7dada;
     text-decoration: none;
-    padding: 6px;
+    padding: 5px;
     box-shadow: 4px 4px 3px #787878;
-    margin: 21px;
+    margin: 15px;
 }
 
 .navigation__link:hover {

@@ -50,6 +50,7 @@
         jsLink2.classList.toggle("cold2");
         jsLink3.classList.toggle("cold2");
         jsLink4.classList.toggle("cold2");
+        jsLink5.classList.toggle("cold2");
         button2.classList.toggle("cold3");
 
         
@@ -68,6 +69,7 @@
     const jsLink2 = document.querySelector(".js-link2");
     const jsLink3 = document.querySelector(".js-link3");
     const jsLink4 = document.querySelector(".js-link4");
+    const jsLink5 = document.querySelector(".js-link5");
 
     const table__cellHeader = document.querySelector(".table__cellHeader")
     const t2 = document.querySelector(".t2")
