@@ -46,6 +46,7 @@
         jsHeader2.classList.toggle("cold1");
         jsHeader3.classList.toggle("cold1");
         jsHeader4.classList.toggle("cold1");
+        jsHeader5.classList.toggle("cold1");
         jsLink.classList.toggle("cold2");
         jsLink2.classList.toggle("cold2");
         jsLink3.classList.toggle("cold2");
@@ -64,6 +65,7 @@
     const jsHeader2 = document.querySelector(".js-header2");
     const jsHeader3 = document.querySelector(".js-header3");
     const jsHeader4 = document.querySelector(".js-header4");
+    const jsHeader5 = document.querySelector(".js-header5");
 
     const jsLink = document.querySelector(".js-link");
     const jsLink2 = document.querySelector(".js-link2");
