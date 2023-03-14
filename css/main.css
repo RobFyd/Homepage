@@ -48,7 +48,7 @@
     vertical-align: middle;
 }
 
-.table__cellHeader {
+.table__cell--header {
     background-color: #f7dada;
     color: black;
     font-weight: bold;
