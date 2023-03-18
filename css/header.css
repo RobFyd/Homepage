@@ -17,12 +17,24 @@
 .header__button {
     color: rgb(250, 248, 252);
     background-color: #000000;
+    cursor: pointer;
 }
 
 .header__button:hover {
     background-color: crimson;
+    transform: scale(105%);
 }
 
 .header__button:active {
     transform: translateY(2px);
+}
+
+.zoomVisible {
+    transition: 1.5s;
+    transform: scale(1.1);
+}
+
+.zoomInvisible {
+    transition: 1.5s;
+    transform: scaleY(1);
 }

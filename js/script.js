@@ -48,11 +48,24 @@
         button2.classList.toggle("cold3");
     };
 
+    const headerZoomElements = document.querySelectorAll('.js-headerZoom');
+
+    function checkVisibility() {
+        headerZoomElements.forEach(headerZoom => {
+            const elementPosition = headerZoom.getBoundingClientRect().top;
+            const screenHeight = window.innerHeight / 4;
+
+            if (elementPosition < screenHeight) {
+                headerZoom.classList.remove('zoomInvisible');
+                headerZoom.classList.add('zoomVisible');
+            } else {
+                headerZoom.classList.remove('zoomVisible');
+                headerZoom.classList.add('zoomInvisible');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', checkVisibility);
+
     init();
 }
-
-
-
-
-
-

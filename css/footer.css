@@ -27,10 +27,14 @@
     box-shadow: 4px 4px 3px #787878;
     font-family: 'Pacifico', cursive;
     font-size: large;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .footer__button:hover {
     background-color: #84e9ff;
+    transition: 0.4s;
+    transform: scale(105%);
 }
 
 .footer__button:active {
