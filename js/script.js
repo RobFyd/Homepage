@@ -65,7 +65,23 @@
         });
     };
 
-    window.addEventListener('scroll', checkVisibility);
+    // const bottomHeaderZoomElements = document.querySelector('.js-bottomHeaderZoom');
 
-    init();
-}
+    // function checkVisibilityBottom() {
+    //     bottomHeaderZoomElements(headerZoom => {
+    //         const elementPosition = headerZoom.getBoundingClientRect().bottom;
+    //         const screenHeight = window.innerHeight / 4;
+
+    //         if (elementPosition > screenHeight) {
+    //             headerZoom.classList.remove('zoomInvisible');
+    //             headerZoom.classList.add('zoomVisible');
+    //         } else {
+    //             headerZoom.classList.remove('zoomVisible');
+    //             headerZoom.classList.add('zoomInvisible');
+    //         }
+    //     });
+    // };
+        window.addEventListener('scroll', checkVisibility, checkVisibilityBottom );
+
+        init();
+    };
