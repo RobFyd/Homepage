@@ -65,23 +65,26 @@
         });
     };
 
-    // const bottomHeaderZoomElements = document.querySelector('.js-bottomHeaderZoom');
+    window.addEventListener('scroll', checkVisibility);
 
-    // function checkVisibilityBottom() {
-    //     bottomHeaderZoomElements(headerZoom => {
-    //         const elementPosition = headerZoom.getBoundingClientRect().bottom;
-    //         const screenHeight = window.innerHeight / 4;
+    const bottomHeaderZoomElements = document.querySelector('.js-bottomHeaderZoom');
 
-    //         if (elementPosition > screenHeight) {
-    //             headerZoom.classList.remove('zoomInvisible');
-    //             headerZoom.classList.add('zoomVisible');
-    //         } else {
-    //             headerZoom.classList.remove('zoomVisible');
-    //             headerZoom.classList.add('zoomInvisible');
-    //         }
-    //     });
-    // };
-        window.addEventListener('scroll', checkVisibility, checkVisibilityBottom );
-
-        init();
+    function checkVisibilityBottom() {
+        const elementPosition = bottomHeaderZoomElements.getBoundingClientRect().bottom;
+        const screenHeight = window.innerHeight / 1;
+    
+        if (elementPosition > screenHeight) {
+            bottomHeaderZoomElements.classList.add('zoomInvisible');
+            bottomHeaderZoomElements.classList.remove('zoomVisible');
+        } else {
+            bottomHeaderZoomElements.classList.add('zoomVisible');
+            bottomHeaderZoomElements.classList.remove('zoomInvisible');
+        }
     };
+
+    window.addEventListener('scroll', () => {
+        checkVisibilityBottom();
+    });
+
+    init();
+};
