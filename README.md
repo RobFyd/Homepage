@@ -4,7 +4,7 @@
 
 ### Description
 
-This is my first website created as a result of taking a course in 'Frontend developer od podstaw'. It contains some information about me and showcases my skills so far. The 'Homepage' is still being updated.
+This is my first website created as a result of taking a course in "Frontend developer od podstaw". It contains some information about me and showcases my skills so far. The "Homepage" is still being updated.
 
 My first page contains:
 - HTML
