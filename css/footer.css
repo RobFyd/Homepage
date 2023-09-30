@@ -28,17 +28,16 @@
     font-family: 'Pacifico', cursive;
     font-size: large;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.1s;
 }
 
 .footer__button:hover {
     background-color: #84e9ff;
-    transition: 0.4s;
-    transform: scale(105%);
 }
 
 .footer__button:active {
-    transform: translateY(2px);
+    transform: translate(2px, 2px);
+    box-shadow: none;
 }
 
 .cold3 {
