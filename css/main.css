@@ -20,11 +20,13 @@
     margin: 10px;
     box-shadow: 4px 4px 3px #787878;
     transition: 0.7s;
+    filter: brightness(90%);
 }
 
 .section__image:hover {
     transform: scale(1.3);
     transition: 0.7s;
+    filter: brightness(110%);
 }
 
 .table__caption {
