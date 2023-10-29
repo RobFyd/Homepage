@@ -1,194 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="icon" href="images/RF.png">
-    <meta property="og:image" content="images/share.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
+    <link rel="icon" href="images/RF.png" />
+    <meta property="og:image" content="images/share.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
     <script defer src="js/script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body class="body js-body">
+  <body class="body js-body">
     <header class="header js-header-remove">
-        <h1 class="header__title js-header">Robert Fydrych</h1>
-        <p>
-            <button class="header__button js-button">Hide the name</button>
-        </p>
+      <h1 class="header__title js-header">Robert Fydrych</h1>
+      <p>
+        <button class="header__button js-button">Hide the name</button>
+      </p>
     </header>
     <nav class="navigation">
-        <ul class="navigation__list">
-            <li><a class="navigation__link js-link" href="#about-me" rel="noreferrer nooppener">About me</a></li>
-            <li><a class="navigation__link js-link" href="#occupation">Occupation and education</a></li>
-            <li><a class="navigation__link js-link" href="#plans" rel="noreferrer nooppener">Plans</a>
-            </li>
-            <li><a class="navigation__link js-link" href="#games" rel="noreferrer nooppener">Favorite games</a>
-            </li>
-            <li><a class="navigation__link js-link" href="#contact" rel="noreferrer nooppener">Contact me</a>
-            </li>
-        </ul>
+      <ul class="navigation__list">
+        <li>
+          <a
+            class="navigation__link js-link"
+            href="#about-me"
+            rel="noreferrer nooppener"
+            >About me</a
+          >
+        </li>
+        <li>
+          <a class="navigation__link js-link" href="#occupation"
+            >Occupation and education</a
+          >
+        </li>
+        <li>
+          <a
+            class="navigation__link js-link"
+            href="#plans"
+            rel="noreferrer nooppener"
+            >Plans</a
+          >
+        </li>
+        <li>
+          <a
+            class="navigation__link js-link"
+            href="#games"
+            rel="noreferrer nooppener"
+            >Favorite games</a
+          >
+        </li>
+        <li>
+          <a
+            class="navigation__link js-link"
+            href="#contact"
+            rel="noreferrer nooppener"
+            >Contact me</a
+          >
+        </li>
+      </ul>
     </nav>
     <main>
-        <section class="section" id="about-me">
-            <h2 class="section__header js-header js-headerZoom">About me</h2>
-            <p class="section__box">
-                Hi! My name is <strong class="js-name">Robert Fydrych</strong>. I
-                live
-                and work in Worcester. It is a picturesque city in England. I am an engineer by education and I work as
-                a welder-fabricator. I love hiking, survival-horror games, DIY, and recently I got interested in
-                programming.<br>Below is my photo and the city where I live:
-            </p>
-            <div class="section__foto">
-                <img class="section__image" width="151" height="250"
-                    src="https://i.postimg.cc/5yFZX3Qr/do-pracy-dom.jpg" alt="moje zdjęcie">
-                <img class="section__image" width="376" height="250"
-                    src="https://i.postimg.cc/DfJZQ3q9/do-pracy-dom-2.jpg" alt="panorama miasta Worcester">
-            </div>
-        </section>
-        <section class="section" id="occupation">
-            <h3 class="section__header js-header js-headerZoom">Occupation and education</h3>
-            <div class="section__box">
-                <p>
-                    For the past 19 years, my professional career has revolved around machining and welding various
-                    types of metals, as well as constructing steel and aluminum structures. I began my career as an
-                    assistant blacksmith, and currently, I utilize technical documentation to fabricate and weld steel
-                    devices used in the medical industry. Additionally, I have completed engineering studies at the
-                    Faculty of Mechanical Engineering, specializing in programming CNC machine tools and devices. During
-                    my time at the University of Technology in Koszalin, I had the opportunity to work with CAD and CAM
-                    software, which supported the design and manufacturing process of objects using CNC devices. One of
-                    my most memorable experiences was working with the <em>Solidworks</em> program.
-                    Presently, I have embarked on the <b class="section__box--course">Frontend Developer from Scratch</b>
-                    course as I am deeply interested in pursuing a career in IT.
-                </p>
-            </div>
-        </section>
-        <section class="section" id="plans">
-            <h3 class="section__header js-header js-headerZoom">Goals and dreams</h3>
-            <div class="section__box">
-                <p>
-                    I have been working for the same company for approximately 7 years, where I am involved in the
-                    production of equipment for the medical industry. Despite completing courses in "coded welding" and
-                    "responsible welding coordination" a few years ago, I don't see any significant opportunities for
-                    further development in this field. However, I have developed a strong interest in the IT industry
-                    due to its abundant growth prospects, remote work possibilities, and competitive salaries.
-                    Currently, I am attending a frontend developer course and I have discovered a great deal of
-                    satisfaction and motivation in programming, which fuels my desire for continuous improvement.
-                    Moreover, transitioning into a programming career would also bring health benefits since, as a
-                    welder, I am consistently exposed to various fumes, dust, and chemical fluids. My primary goal at
-                    the moment is to successfully complete the IT course. Additionally, I plan to acquire knowledge in
-                    HTML, CSS, JavaScript, React, and other related fields, while expanding my portfolio as much as
-                    possible. Ultimately, my dream is to secure a position as a junior developer, paving the way for a
-                    new and fulfilling career. Although I have been working as a welder-fabricator in the engineering
-                    field for 20 years, I aspire to dedicate the next 20 years (or more) to honing my skills in the IT
-                    industry.
-                </p>
-            </div>
-        </section>
-        <section class="section" id="games">
-            <h3 class="section__header js-header js-headerZoom">Favorite survival horrors</h3>
-            <div class="section__tableContainer">
-                <table class="table">
-                    <caption class="table__caption"><i>6 survival horrors according to me:</i></caption>
-                    <colgroup>
-                        <col />
-                        <col />
-                        <col />
-                        <col class="table__col4" />
-                        <col class="table__col5" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="col">Title</th>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="col">Publisher</th>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="col">Publication date</th>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="col">Average critic ratings
-                                on metacritic.com</th>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="col">Average player ratings
-                                by metacritic.com</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="row">Resident Evil 4</th>
-                            <td class="table__cell" rowspan="2">Capcom</td>
-                            <td class="table__cell">2005</td>
-                            <td class="table__cell">96/100</td>
-                            <td class="table__cell">9.2/10</td>
-                        </tr>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="row">Resident Evil 2 remake
-                            </th>
-                            <td class="table__cell">2019</td>
-                            <td class="table__cell">91/100</td>
-                            <td class="table__cell">9/10</td>
-                        </tr>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="row">The Evil Within</th>
-                            <td class="table__cell" rowspan="2">Bethesda Softworks</td>
-                            <td class="table__cell">2014</td>
-                            <td class="table__cell">75/100</td>
-                            <td class="table__cell">8.1/10</td>
-                        </tr>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="row">The Evil Within 2</th>
-                            <td class="table__cell">2017</td>
-                            <td class="table__cell">76/100</td>
-                            <td class="table__cell">8.4/10</td>
-                        </tr>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="row">Days Gone</th>
-                            <td class="table__cell">Sony Interactive Entertainment</td>
-                            <td class="table__cell">2019</td>
-                            <td class="table__cell">71/100</td>
-                            <td class="table__cell">8.4/10</td>
-                        </tr>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="row">Dead Space</th>
-                            <td class="table__cell">Electronic Arts</td>
-                            <td class="table__cell">2008</td>
-                            <td class="table__cell">86/100</td>
-                            <td class="table__cell">8.3/10</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <th class="table__cell table__cell--header js-cellHeader" scope="col" colspan="3">Average
-                                rating of all
-                                six games
-                            </th>
-                            <td class="table__cell">82.5/100</td>
-                            <td class="table__cell">8.56/10</td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-        </section>
+      <section class="section" id="about-me">
+        <h2 class="section__header js-header js-headerZoom">About me</h2>
+        <p class="section__box">
+          Hi! My name is <strong class="js-name">Robert Fydrych</strong>. I live
+          and work in Worcester. It is a picturesque city in England. I am an
+          engineer by education and I work as a welder-fabricator. I love
+          hiking, survival-horror games, DIY, and recently I got interested in
+          programming.<br />Below is my photo and the city where I live:
+        </p>
+        <div class="section__foto">
+          <img
+            class="section__image"
+            width="151"
+            height="250"
+            src="https://i.postimg.cc/5yFZX3Qr/do-pracy-dom.jpg"
+            alt="moje zdjęcie"
+          />
+          <img
+            class="section__image"
+            width="376"
+            height="250"
+            src="https://i.postimg.cc/DfJZQ3q9/do-pracy-dom-2.jpg"
+            alt="panorama miasta Worcester"
+          />
+        </div>
+      </section>
+      <section class="section" id="occupation">
+        <h3 class="section__header js-header js-headerZoom">
+          Occupation and education
+        </h3>
+        <div class="section__box">
+          <p>
+            For the past 19 years, my professional career has revolved around
+            machining and welding various types of metals, as well as
+            constructing steel and aluminum structures. I began my career as an
+            assistant blacksmith, and currently, I utilize technical
+            documentation to fabricate and weld steel devices used in the
+            medical industry. Additionally, I have completed engineering studies
+            at the Faculty of Mechanical Engineering, specializing in
+            programming CNC machine tools and devices. During my time at the
+            University of Technology in Koszalin, I had the opportunity to work
+            with CAD and CAM software, which supported the design and
+            manufacturing process of objects using CNC devices. One of my most
+            memorable experiences was working with the
+            <em>Solidworks</em> program. Currently, I have completed the
+            <b class="section__box--course">Frontend Developer from Scratch</b> course as I am deeply interested in
+            pursuing a career in IT.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="plans">
+        <h3 class="section__header js-header js-headerZoom">
+          Goals and dreams
+        </h3>
+        <div class="section__box">
+          <p>
+            For approximately 7 years, I have been working at the same company,
+            where I am involved in the production of equipment for the medical
+            industry. Despite completing courses in "coded welding" and
+            "responsible welding coordination" a few years ago, I do not see
+            significant opportunities for further development in this field. In
+            my quest for new opportunities, I have developed a strong interest
+            in the IT industry due to its promising growth prospects, remote
+            work possibilities, competitive salaries, and health benefits. I
+            have recently completed a frontend developer course and discovered a
+            profound sense of satisfaction and motivation in programming,
+            fueling my desire for continuous improvement. Thanks to the frontend
+            developer course, I have mastered languages such as HTML, CSS,
+            JavaScript, the React library, and the distributed version control
+            system GIT. At this point, I am highly motivated to transition and
+            embark on my first job in the IT field. My plan is to continually
+            expand my knowledge in HTML, CSS, JavaScript, React, and related
+            areas, all while enriching my portfolio to the fullest extent.
+            Ultimately, my dream is to secure a position as a junior developer,
+            paving the way for a new and fulfilling career. Although I have
+            worked as a welder-fabricator in the engineering field for 20 years,
+            I intend to dedicate the next 20 years (or more) to honing my skills
+            in the IT industry.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="games">
+        <h3 class="section__header js-header js-headerZoom">
+          Favorite survival horrors
+        </h3>
+        <div class="section__tableContainer">
+          <table class="table">
+            <caption class="table__caption">
+              <i>6 survival horrors according to me:</i>
+            </caption>
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col class="table__col4" />
+              <col class="table__col5" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="col"
+                >
+                  Title
+                </th>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="col"
+                >
+                  Publisher
+                </th>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="col"
+                >
+                  Publication date
+                </th>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="col"
+                >
+                  Average critic ratings on metacritic.com
+                </th>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="col"
+                >
+                  Average player ratings by metacritic.com
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="row"
+                >
+                  Resident Evil 4
+                </th>
+                <td class="table__cell" rowspan="2">Capcom</td>
+                <td class="table__cell">2005</td>
+                <td class="table__cell">96/100</td>
+                <td class="table__cell">9.2/10</td>
+              </tr>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="row"
+                >
+                  Resident Evil 2 remake
+                </th>
+                <td class="table__cell">2019</td>
+                <td class="table__cell">91/100</td>
+                <td class="table__cell">9/10</td>
+              </tr>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="row"
+                >
+                  The Evil Within
+                </th>
+                <td class="table__cell" rowspan="2">Bethesda Softworks</td>
+                <td class="table__cell">2014</td>
+                <td class="table__cell">75/100</td>
+                <td class="table__cell">8.1/10</td>
+              </tr>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="row"
+                >
+                  The Evil Within 2
+                </th>
+                <td class="table__cell">2017</td>
+                <td class="table__cell">76/100</td>
+                <td class="table__cell">8.4/10</td>
+              </tr>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="row"
+                >
+                  Days Gone
+                </th>
+                <td class="table__cell">Sony Interactive Entertainment</td>
+                <td class="table__cell">2019</td>
+                <td class="table__cell">71/100</td>
+                <td class="table__cell">8.4/10</td>
+              </tr>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="row"
+                >
+                  Dead Space
+                </th>
+                <td class="table__cell">Electronic Arts</td>
+                <td class="table__cell">2008</td>
+                <td class="table__cell">86/100</td>
+                <td class="table__cell">8.3/10</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th
+                  class="table__cell table__cell--header js-cellHeader"
+                  scope="col"
+                  colspan="3"
+                >
+                  Average rating of all six games
+                </th>
+                <td class="table__cell">82.5/100</td>
+                <td class="table__cell">8.56/10</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
     </main>
     <footer class="footer" id="contact">
-        <h3 class="footer__header js-header js-bottomHeaderZoom">Thank you for your attention :)</h3>
-        <p><i>If you have any additional questions, please send a message to the address:
-                <b>robert.fydrych.w@gmail.com</b></i></p>
-        <p><i>You can also check out my other work at:
-                <b>https://github.com/RobFyd</b></i></p>
-        <div class="footer__center">
-            <p>
-                <button class="footer__button js-button2">Turn on <span class="js-themeName">cool</span> theme</button>
-            </p>
-        </div>
+      <h3 class="footer__header js-header js-bottomHeaderZoom">
+        Thank you for your attention :)
+      </h3>
+      <p>
+        <i
+          >If you have any additional questions, please send a message to the
+          address: <b>robert.fydrych.w@gmail.com</b></i
+        >
+      </p>
+      <p>
+        <i
+          >You can also check out my other work at:
+          <b>https://github.com/RobFyd</b></i
+        >
+      </p>
+      <div class="footer__center">
+        <p>
+          <button class="footer__button js-button2">
+            Turn on <span class="js-themeName">cool</span> theme
+          </button>
+        </p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
