@@ -1,4 +1,10 @@
 {
+    const button2 = document.querySelector(".js-button2");
+    const jsHeader = document.querySelectorAll(".js-header");
+    const jsLink = document.querySelectorAll(".js-link");
+    const cellHeader = document.querySelectorAll(".js-cellHeader")
+    window.addEventListener('scroll', checkVisibility);
+
     const welcome = () => {
         console.log("Hello World :)");
     };
@@ -17,19 +23,6 @@
         themeName.innerText = body.classList.contains("cold") ? "warm" : "cool";
 
     };
-
-    const init = () => {
-        const click1 = document.querySelector(".js-button");
-        click1.addEventListener("click", removeNameClick);
-        welcome();
-        button2.addEventListener("click", toggleBackground);
-        button2.addEventListener("click", onChangeBackgroundClick);
-    };
-
-    const button2 = document.querySelector(".js-button2");
-    const jsHeader = document.querySelectorAll(".js-header");
-    const jsLink = document.querySelectorAll(".js-link");
-    const cellHeader = document.querySelectorAll(".js-cellHeader")
 
     const onChangeBackgroundClick = () => {
 
@@ -65,8 +58,6 @@
         });
     };
 
-    window.addEventListener('scroll', checkVisibility);
-
     const bottomHeaderZoomElements = document.querySelector('.js-bottomHeaderZoom');
 
     function checkVisibilityBottom() {
@@ -85,6 +76,14 @@
     window.addEventListener('scroll', () => {
         checkVisibilityBottom();
     });
+
+    const init = () => {
+        const click1 = document.querySelector(".js-button");
+        click1.addEventListener("click", removeNameClick);
+        welcome();
+        button2.addEventListener("click", toggleBackground);
+        button2.addEventListener("click", onChangeBackgroundClick);
+    };
 
     init();
 };
