@@ -29,9 +29,12 @@ My logo:
 
 ![LOGO](https://github.com/RobFyd/BMI-Calculator/blob/main/fotos/RFLogo.png?raw=true)
 
+<br>
+<br>
 
 ```javascript
-let x = "love coding";
+let x = "Thank you for your time";
 console.log(x);
+// :)
 ```
 
