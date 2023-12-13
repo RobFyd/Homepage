@@ -6,7 +6,10 @@
 
 This is my first website created as a result of taking a course in "Frontend developer od podstaw". It contains some information about me and showcases my skills so far. The "Homepage" is still being updated.
 
-My first page contains:
+### My first page contains:
+
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,github,vscode)
+
 - HTML
 - CSS
 - JS
