@@ -18,7 +18,7 @@ This is my first website created as a result of taking a course in "Frontend dev
 
 ### Screenshot:
 
-![homepage screenshot](https://github.com/RobFyd/homepage/blob/main/images/readme%20shot.PNG?raw=true)
+![homepage screenshot](https://raw.githubusercontent.com/RobFyd/Homepage/7ce606f8b02f43a407588fa059fddf34d364b01d/images/rd-shot2.png)
 
 
 If you want to learn more and test the functionality of my first website, click below:
