@@ -47,3 +47,13 @@
 .cold3:hover {
     background-color: #f7dada;
 }
+
+.charityDiv {
+    display: flex;
+}
+
+.charityHeader {
+    display: flex;
+    align-self: center;
+    margin-left: 5%;
+}
