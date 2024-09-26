@@ -12,34 +12,6 @@
     background-color: #84e9ff;
 }
 
-
-.footer__center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer__button {
-    color: black;
-    background-color: #f7dada;
-    width: 200px;
-    height: 40px;
-    box-shadow: 4px 4px 3px #787878;
-    font-family: 'Pacifico', cursive;
-    font-size: large;
-    cursor: pointer;
-    transition: 0.1s;
-}
-
-.footer__button:hover {
-    background-color: #84e9ff;
-}
-
-.footer__button:active {
-    transform: translate(2px, 2px);
-    box-shadow: none;
-}
-
 .cold3 {
     background-color: #84e9ff;
 }
